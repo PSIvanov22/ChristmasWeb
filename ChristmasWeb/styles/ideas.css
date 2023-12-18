@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    background-image: url('../images/winter_background_ideas.jpg'); 
+    background-size: cover;
+  }
+
+  header {
+    background-color: #c62828;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  #ideas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+
+  .idea {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .idea h2 {
+    color: #315f94;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .idea p {
+    color:rgb(50, 156, 112); 
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .idea p:last-child {
+    margin-bottom: 0;
+  }
+
+  .idea p:not(:last-child)::after {
+    content: '';
+    display: block;
+    margin-top: 10px;
+  }
+ 

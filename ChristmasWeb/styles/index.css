@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  header {
+    background-color: #c62828;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .christmas-heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 0;
+  }
+  
+  section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .calendar {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f5f5f5;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #c62828;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  .day {
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .day:hover {
+    background-color: #ffecb3;
+  }
+  
+  .day[data-day="25"]:before {
+    content: '\2605';
+    color: #c62828;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 30px;
+  }
+  
+  section#about {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 0;
+  }
+  
+  section#about h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #c62828;
+    text-transform: uppercase;
+  }
+  
+  section#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+  }
+  section#contact {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 0;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/winter_background.webp');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+  }
+  
+  section#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #c62828;
+  }
+  
+  section#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+  }
+  
+  section#contact p::before,
+  section#contact p::after {
+    content: '"';
+    font-size: 36px;
+    color: #c62828;
+  }
+  
+  section#contact p::before {
+    margin-right: 5px;
+  }
+  
+  section#contact p::after {
+    margin-left: 5px;
+  }
