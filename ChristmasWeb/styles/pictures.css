@@ -11,11 +11,15 @@ body {
     text-align: center;
     color: #fff;
   }
-  footer {
-    background-color: #333;
-    color: #fff;
+  #footer {
+    background-color: #0f6108; 
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px;
+  }
+
+  #footer p {
+    margin: 0;
   }
   
   .christmas-heading {

@@ -6,6 +6,12 @@ body {
     background-image: url('../images/winter_background_texts.jpg'); 
     background-size: cover;
   }
+  .christmas-heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
   
   header {
     background-color: #c62828;
@@ -13,13 +19,16 @@ body {
     text-align: center;
     color: #fff;
   }
-  footer {
-    background-color: #333;
-    color: #fff;
+  #footer {
+    background-color: #0f6108; 
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    padding: 10px;
   }
 
+  #footer p {
+    margin: 0;
+  }
   #container {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,7 +45,31 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    perspective: 1000px;
   }
+  .poem-box {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    opacity: 0; 
+    animation: fadeIn 1s forwards; 
+    transition: transform 0.3s ease-in-out;
+   
+  }
+
+  .poem-box:hover {
+    transform: scale(1.05); 
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1; 
+    }
+  }
+ 
+  
 
   .poem {
     background-color: #ffffff;
@@ -45,6 +78,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 2px solid #ff0000; 
   }
+ 
 
   .poem h2 {
     color:crimson;
